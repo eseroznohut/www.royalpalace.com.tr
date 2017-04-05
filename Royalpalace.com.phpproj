@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>Royalpalace.com</Name>
+    <ProjectGuid>{a450b5ad-8761-4628-aab2-1c1124f18ecf}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="index.php" />
+    <Compile Include="pages\restoran-bar.php" />
+    <Compile Include="pages\toplanti-salonu.php" />
+    <Compile Include="pages\anasayfa.php" />
+    <Compile Include="pages\engelli-oda.php" />
+    <Compile Include="pages\galeri.php" />
+    <Compile Include="pages\iletisim.php" />
+    <Compile Include="pages\odalarimiz.php" />
+    <Compile Include="pages\aktiviteler.php" />
+    <Compile Include="pages\standart-oda.php" />
+    <Compile Include="pages\suit-oda.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".htaccess" />
+    <Content Include="assets\css\styles.css" />
+    <Content Include="assets\fonts\bootstrap\glyphicons-halflings-regular3f973f973f97.eot" />
+    <Content Include="assets\fonts\bootstrap\glyphicons-halflings-regulare389e389e389.eot" />
+    <Content Include="assets\fonts\bootstrap\glyphicons-halflings-regulare389e389e389.svg" />
+    <Content Include="assets\fonts\bootstrap\glyphicons-halflings-regulare389e389e389.ttf" />
+    <Content Include="assets\fonts\bootstrap\glyphicons-halflings-regulare389e389e389.woff" />
+    <Content Include="assets\fonts\bootstrap\glyphicons-halflings-regulare389e389e389.woff2" />
+    <Content Include="assets\fonts\FontAwesome\fontawesome-webfont5b625b625b62.eot" />
+    <Content Include="assets\fonts\FontAwesome\fontawesome-webfont5b625b625b62.svg" />
+    <Content Include="assets\fonts\FontAwesome\fontawesome-webfont5b625b625b62.ttf" />
+    <Content Include="assets\fonts\FontAwesome\fontawesome-webfont5b625b625b62.woff" />
+    <Content Include="assets\fonts\FontAwesome\fontawesome-webfont5b625b625b62.woff2" />
+    <Content Include="assets\fonts\FontAwesome\fontawesome-webfontd41dd41dd41d.eot" />
+    <Content Include="assets\fonts\ravis\RavisIconf50ff50ff50f.eot" />
+    <Content Include="assets\fonts\ravis\RavisIconf50ff50ff50f.svg" />
+    <Content Include="assets\fonts\ravis\RavisIconf50ff50ff50f.ttf" />
+    <Content Include="assets\fonts\ravis\RavisIconf50ff50ff50f.woff" />
+    <Content Include="assets\img\avatar.png" />
+    <Content Include="assets\img\breadcrumb.jpg" />
+    <Content Include="assets\img\coming-soon-bg.jpg" />
+    <Content Include="assets\img\otelv4_logo.png" />
+    <Content Include="assets\img\royal_logo.jpg" />
+    <Content Include="assets\img\royal_logo.png" />
+    <Content Include="assets\img\royal_logo.psd" />
+    <Content Include="assets\img\royal_logo_duz.jpg" />
+    <Content Include="assets\img\select2-spinner.gif" />
+    <Content Include="assets\img\select2.png" />
+    <Content Include="assets\img\select2x2.png" />
+    <Content Include="assets\img\testimonails.jpg" />
+    <Content Include="assets\js\helper.js" />
+    <Content Include="assets\js\imagesloaded.pkgd.min.js" />
+    <Content Include="assets\js\isotope.pkgd.min.js" />
+    <Content Include="assets\js\jquery-3.1.0.min.js" />
+    <Content Include="assets\js\jquery.magnific-popup.min.js" />
+    <Content Include="assets\js\owl.carousel.min.js" />
+    <Content Include="assets\js\select2.min.js" />
+    <Content Include="assets\js\template.js" />
+    <Content Include="images\galeri\banquet\1.JPG" />
+    <Content Include="images\galeri\banquet\2.JPG" />
+    <Content Include="images\galeri\banquet\3.JPG" />
+    <Content Include="images\galeri\banquet\4.jpg" />
+    <Content Include="images\galeri\banquet\5.jpg" />
+    <Content Include="images\galeri\banquet\6.jpg" />
+    <Content Include="images\galeri\fitness\1.jpg" />
+    <Content Include="images\galeri\hamam\1.jpg" />
+    <Content Include="images\galeri\hamam\2.jpg" />
+    <Content Include="images\galeri\restaurant\1.jpg" />
+    <Content Include="images\galeri\restaurant\2.jpg" />
+    <Content Include="images\galeri\restaurant\3.jpg" />
+    <Content Include="images\galeri\restaurant\4.jpg" />
+    <Content Include="images\galeri\restaurant\5.jpg" />
+    <Content Include="images\galeri\restaurant\6.jpg" />
+    <Content Include="images\galeri\royal-palace\1.jpg" />
+    <Content Include="images\galeri\royal-palace\10.jpg" />
+    <Content Include="images\galeri\royal-palace\11.jpg" />
+    <Content Include="images\galeri\royal-palace\12.jpg" />
+    <Content Include="images\galeri\royal-palace\13.jpg" />
+    <Content Include="images\galeri\royal-palace\14.jpg" />
+    <Content Include="images\galeri\royal-palace\15.jpg" />
+    <Content Include="images\galeri\royal-palace\16.jpg" />
+    <Content Include="images\galeri\royal-palace\2.jpg" />
+    <Content Include="images\galeri\royal-palace\3.jpg" />
+    <Content Include="images\galeri\royal-palace\4.jpg" />
+    <Content Include="images\galeri\royal-palace\5.jpg" />
+    <Content Include="images\galeri\royal-palace\6.jpg" />
+    <Content Include="images\galeri\royal-palace\7.jpg" />
+    <Content Include="images\galeri\royal-palace\8.jpg" />
+    <Content Include="images\galeri\royal-palace\9.jpg" />
+    <Content Include="images\galeri\standart_oda\1.jpg" />
+    <Content Include="images\galeri\standart_oda\10.jpg" />
+    <Content Include="images\galeri\standart_oda\2.jpg" />
+    <Content Include="images\galeri\standart_oda\3.jpg" />
+    <Content Include="images\galeri\standart_oda\4.jpg" />
+    <Content Include="images\galeri\standart_oda\5.jpg" />
+    <Content Include="images\galeri\standart_oda\6.jpg" />
+    <Content Include="images\galeri\standart_oda\7.jpg" />
+    <Content Include="images\galeri\standart_oda\8.jpg" />
+    <Content Include="images\galeri\standart_oda\9.jpg" />
+    <Content Include="images\galeri\suit_oda\1.jpg" />
+    <Content Include="images\galeri\suit_oda\2.jpg" />
+    <Content Include="images\galeri\suit_oda\3.jpg" />
+    <Content Include="images\galeri\suit_oda\4.jpg" />
+    <Content Include="images\galeri\suit_oda\5.jpg" />
+    <Content Include="images\galeri\suit_oda\6.jpg" />
+    <Content Include="images\galeri\suit_oda\7.jpg" />
+    <Content Include="images\hakkimizda\1.jpg" />
+    <Content Include="images\logos\booking.png" />
+    <Content Include="images\logos\etstur.png" />
+    <Content Include="images\logos\yakala.co.png" />
+    <Content Include="images\odalar\standart_oda\1.jpg" />
+    <Content Include="images\odalar\standart_oda\slider\1.jpg" />
+    <Content Include="images\odalar\standart_oda\slider\10.jpg" />
+    <Content Include="images\odalar\standart_oda\slider\2.jpg" />
+    <Content Include="images\odalar\standart_oda\slider\3.jpg" />
+    <Content Include="images\odalar\standart_oda\slider\4.jpg" />
+    <Content Include="images\odalar\standart_oda\slider\5.jpg" />
+    <Content Include="images\odalar\standart_oda\slider\6.jpg" />
+    <Content Include="images\odalar\standart_oda\slider\7.jpg" />
+    <Content Include="images\odalar\standart_oda\slider\8.jpg" />
+    <Content Include="images\odalar\standart_oda\slider\9.jpg" />
+    <Content Include="images\odalar\suit_oda\1.jpg" />
+    <Content Include="images\odalar\suit_oda\slider\1.jpg" />
+    <Content Include="images\odalar\suit_oda\slider\2.jpg" />
+    <Content Include="images\odalar\suit_oda\slider\3.jpg" />
+    <Content Include="images\odalar\suit_oda\slider\4.jpg" />
+    <Content Include="images\odalar\suit_oda\slider\5.jpg" />
+    <Content Include="images\odalar\suit_oda\slider\6.jpg" />
+    <Content Include="images\odalar\suit_oda\slider\7.jpg" />
+    <Content Include="images\slider\1.jpg" />
+    <Content Include="images\slider\2.jpg" />
+    <Content Include="images\slider\3.jpg" />
+    <Content Include="images\slider\33.jpg" />
+    <Content Include="images\slider\4.jpg" />
+    <Content Include="images\slider\5.jpg" />
+    <Content Include="images\slider\eeeee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
+    <Folder Include="assets\css\" />
+    <Folder Include="assets\fonts\" />
+    <Folder Include="assets\fonts\bootstrap\" />
+    <Folder Include="assets\fonts\FontAwesome\" />
+    <Folder Include="assets\fonts\ravis\" />
+    <Folder Include="assets\img\" />
+    <Folder Include="assets\js\" />
+    <Folder Include="images\" />
+    <Folder Include="images\galeri\" />
+    <Folder Include="images\galeri\fitness\" />
+    <Folder Include="images\galeri\hamam\" />
+    <Folder Include="images\galeri\banquet\" />
+    <Folder Include="images\galeri\restaurant\" />
+    <Folder Include="images\galeri\royal-palace\" />
+    <Folder Include="images\galeri\standart_oda\" />
+    <Folder Include="images\galeri\suit_oda\" />
+    <Folder Include="images\hakkimizda\" />
+    <Folder Include="images\logos\" />
+    <Folder Include="images\odalar\" />
+    <Folder Include="images\odalar\standart_oda\" />
+    <Folder Include="images\odalar\standart_oda\slider\" />
+    <Folder Include="images\odalar\suit_oda\" />
+    <Folder Include="images\odalar\suit_oda\slider\" />
+    <Folder Include="images\slider\" />
+    <Folder Include="pages\" />
+  </ItemGroup>
+</Project>
